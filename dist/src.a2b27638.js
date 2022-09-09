@@ -198,7 +198,7 @@ require("./styles.css");
 if (document.readyState !== "loading") {
   initializeCode();
 } else {
-  document.addEventlistener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
     initializeCode();
   });
 }
