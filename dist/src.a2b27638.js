@@ -215,7 +215,6 @@ function myNotebook() {
 
 function customText() {
   var areaText = document.getElementById("custom-text").value;
-  document.getElementById("custom-text").value = "";
   var ul = document.getElementById("un-list");
   var li = document.createElement("li");
   li.appendChild(document.createTextNode(areaText));
