@@ -16,7 +16,7 @@ function initializeCode() {
 
 function myNotebook() {
   console.log("hello world");
-  document.getElementById("change").innerHTML = "My Notebook";
+  document.getElementById("change").innerHTML = "Moi maailma";
 }
 
 function customText() {
